@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="col-span-3">
                             <div className="flex items-center space-x-5">
                                 <img src="/img/logo2.png" className="rounded-full w-12" />
-                                <p className="font-semibold text-xl text-white">Astra Bot</p>
+                                <p className="font-semibold text-xl text-white">Pyremix Bot</p>
                             </div>
                             <Menu as="div" className="relative mt-3 inline-block text-left">
                                 <div>
@@ -48,41 +48,41 @@ export default function Footer() {
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Links</p>
                             <div>
-                                <Link href="https://bit.ly/3LYzaDe">
+                                <Link href="https://yakında">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        Vote Bot
+                                        Bota Oy Ver
                                     </a>
                                 </Link>
                             </div>
                             <div>
-                                <a href="https://discord.gg/ZcDprCrFTn" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    Support Server
+                                <a href="https://discord.gg/hzHf6ETr93" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    Server
                                 </a>
                             </div>
                             <div>
-                                <a href=" https://bit.ly/3PHDjyC" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    Invite Bot
+                                <a href="https://discord.com/oauth2/authorize?client_id=1148021343632228565&scope=bot&permissions=27648860222" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    Botu Davet Et
                                 </a>
                             </div>
                         </div>
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Social</p>
                             <div>
-                                <Link href="https://discord.gg/ST89uArTdh">
+                                <Link href="https://discord.gg/hzHf6ETr93">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-discord`} /> Disocrd 
                                     </a>
                                 </Link>
                             </div>
                             <div>
-                                <Link href="https://github.com/1umutda/MusicBot">
+                                <Link href="https://github.com/cihat04?tab=repositories">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-github`} /> GitHub 
                                     </a>
                                 </Link>
                             </div>
                             <div>
-                                <Link href="https://youtube.com/UmutBayraktarYT">
+                                <Link href="https://www.youtube.com/shorts/M7QUm_iDNsI">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     <i className={`fa-brands fa-youtube`} /> YouTube 
                                     </a>
@@ -109,7 +109,7 @@ export default function Footer() {
                     </div>
                     <div className="mt-10 grid content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                         <p className="text-white text-center sm:text-left text-opacity-50">
-                            {new Date().getFullYear()} &copy; Astra Bot
+                            {new Date().getFullYear()} &copy; Pyremix Bot
                         </p>
                         <div className="hidden md:flex items-center justify-center">
                                 <p className={"text-xs text-green-400"}>
@@ -117,7 +117,7 @@ export default function Footer() {
                                 </p>
                         </div>
                         <p className="text-white text-center sm:text-right text-opacity-50">
-                            {"Astra Bot ❤️"}
+                            {"Pyremix Bot ❤️"}
                         </p>
                     </div>
                 </div>
