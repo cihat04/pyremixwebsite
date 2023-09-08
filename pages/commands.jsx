@@ -3,27 +3,34 @@ import Link from "next/link";
 
 export default function Commands() {
   const commands = [
-    "/help",
-    "/invite",
-    "/lyrics",
+    "/yardım",
+    "/afk",
+    "/avatar",
     "/ping",
-    "/stats",
-    "/setdj",
-    "/play",
-    "/serach",
-    "/stop",
-    "/skip",
-    "/back",
-    "/clear",
-    "/time",
-      "/queue",
-      "/pause",
-      "/resume",
-      "/volume",
-      "/nowplaying",
-      "/save",
-      "/loop",
-      "/filter"
+    "/ban-list",
+    "/ban",
+    "/emoji-yazı",
+    "/emojiler",
+    "/forceban",
+    "/hg-bb",
+    "/istatistik",
+    "/sil",
+    "/kanal-açıklama",
+      "/kayıt-et",
+      "/kayıtlı-rol",
+      "/kick",
+      "/kurucu",
+      "/küfür-engel",
+      "/oto-rol",
+      "/oto-tag",
+      "/oylama",
+    "/reklam-engel",
+    "/rol-al",
+    "/rol-oluştur",
+    "/rol-ver",
+    "/sa-as",
+    "/unban",
+    "/yavaş-mod"
       ]
   return (
     <>
@@ -33,10 +40,10 @@ export default function Commands() {
       </div>
         <p className="text-xl font-medium text-white">
           <i className="fal fa-cogs text-amber-400 mr-2" />
-         Bot Commands
+         Bot Komut
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the Astra Bot.
+        Pyremix Bot komutları hakkında bilgi alabilirsiniz.
         </p>
 
         <div>
@@ -47,7 +54,7 @@ export default function Commands() {
                  
                     <>
                       <i className="fa fa-hashtag text-white text-opacity-20" />
-                     View Commands List
+                      Komut Listesini Görüntüle
                     </>
                 
                 </div>
@@ -64,13 +71,13 @@ export default function Commands() {
               <Menu.Items className="z-1 custom-scroll absolute left-0 w-full mt-2 origin-top-right bg-black overflow-auto max-h-60 border border-black border-opacity-20 bg-opacity-95 rounded-lg p-1">
                 <div className="px-1 py-1 w-full">
 
-            {commands.map(astra => (
+            {commands.map(Pyremix => (
 
                 <Menu.Item>
                     <button className={`w-full rounded-lg p-2 cursor-pointer text-white flex items-center space-x-3 transition-all duration-200`}>
                     <>
                           <i className="fa-spin text-xl text-white text-opacity-20" />
-                         {astra}</>
+                         {Pyremix}</>
                     </button>
                     </Menu.Item>
             ))}
@@ -83,23 +90,23 @@ export default function Commands() {
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://bit.ly/3PHDjyC"}>
+  <Link href={"https://discord.com/oauth2/authorize?client_id=1148021343632228565&scope=bot&permissions=27648860222"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite Astra</a>
+Pyremixi Davet Et</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://discord.gg/ZcDprCrFTn"}>
+  <Link href={"https://discord.gg/hzHf6ETr93"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Support Server</a>
+Discord Sunucumuz</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://bit.ly/3LYzaDe"}>
+  <Link href={"https://discord.com/oauth2/authorize?client_id=1148021343632228565&scope=bot&permissions=27648860222"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote Astra</a>
+Vote Pyremix</a>
   </Link>
 </div>
 
